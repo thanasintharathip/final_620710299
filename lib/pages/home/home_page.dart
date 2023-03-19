@@ -64,6 +64,8 @@ class _HomePageState extends State<HomePage> {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text('รอสักครู่', style: TextStyle(color: Colors.white)),
+
+
             ),
           ],
         ),
