@@ -35,6 +35,8 @@ class _HomePageState extends State<HomePage> {
               children: [
                 if (_polls != null) _buildList(),
                 if (_isLoading) _buildProgress(),
+
+                Text('1.บุคคลใดที่คุณเลือกจะสนับสนุนให้เป็นนายกรัฐมนตรีในการเลือกตั้งครั้งนี้')
               ],
             ),
           ),
